@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .caja {
+        background-color: white;
+        color: black;
+    }
+}
+
+@media (max-width: 600px) {
+    .caja {
+        background-color:  black;
+        color: red;
+    }
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .caja2 {
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 600px) {
+    .caja2 {
+        background-color:  green;
+    }
+}
+
+.caja3 {
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .caja3 {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 600px) {
+    .caja3 {
+        background-color:  royalblue;
+    }
+}
+
+.caja4 {
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .caja4 {
+        background-color: purple;
+    }
+}
+
+@media (max-width: 600px) {
+    .caja4 {
+        background-color:  chocolate;
+    }
+}
